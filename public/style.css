@@ -4,6 +4,8 @@
     border-radius: 18px;
     display: inline-block;
     margin: 20px 10px 0px 10px;
+    height: 244px;
+    width: 440px;
 }
 
 .msg{
@@ -13,6 +15,17 @@
     border-radius: 10px;
 }
 
+.msg button{
+    position: relative;
+    left : 5px;
+    bottom: 10px;
+}
+
 body{
     margin-left: 10px;
+}
+
+.btn{
+    display: inline-block;
+    margin-right: 5px;
 }
