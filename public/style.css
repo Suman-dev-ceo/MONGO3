@@ -4,7 +4,7 @@
     border-radius: 18px;
     display: inline-block;
     margin: 20px 10px 0px 10px;
-    height: 244px;
+    height: 250px;
     width: 440px;
 }
 
@@ -28,4 +28,10 @@ body{
 .btn{
     display: inline-block;
     margin-right: 5px;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+     
 }

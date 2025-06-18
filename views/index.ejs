@@ -26,8 +26,16 @@
         </div>
         <p>To: <i><%=chat.to%></i></p>
         <hr>
-        <p><%=chat.created_at.toString().split(' ')[4] %></p>
-        <p><%= chat.created_at.toString().split(' ').slice(0,4).join(' ') %>  </p>
+        <div class="time">
+            <div class="createdAt">Created at:
+                <p><%=chat.created_at.toString().split(' ')[4] %></p>
+                <p><%= chat.created_at.toString().split(' ').slice(0,4).join(' ') %>  </p>
+            </div>
+            <div class="modifiedAt">Modified at:
+                <p><%= chat.modified_at.toString().split(' ')[4]%></p>
+                <p><%= chat.modified_at.toString().split(' ').slice(0,4).join(' ')  %>  </p>
+            </div>
+        </div>
     </div>
     
 <%}%>
